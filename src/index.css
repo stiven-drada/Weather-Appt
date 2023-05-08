@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+
+@media screen and (max-width: 576px) {
+    .container_app_info {
+        height: 170px;
+        width: 300px;
+        left: 330px;
+        top: 270.86865234375px;
+        border-radius: 20px;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .container_app_info p:nth-of-type(2){
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container_app_info_icon img{
+        size: 20px;
+
+    }
+}
